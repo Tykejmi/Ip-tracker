@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:wght@400;900&display=swap');
 
-html,body{
+html,
+body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -8,36 +9,41 @@ html,body{
 	font-family: 'Roboto', sans-serif;
 }
 
-.main-wrap{
+.main-wrap {
 	background-color: black;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
-	
 }
-header{
+
+header {
 	min-height: 30vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
 }
-header h1{
+
+header h1 {
 	color: white;
 }
-.input{
+
+.input {
 	display: flex;
 	height: 30px;
 }
-.input img{
-/*	filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(322deg) brightness(101%) contrast(105%);
-*/	width: 100%;
+
+.input img {
+	/*	filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(322deg) brightness(101%) contrast(105%);
+*/
+	width: 100%;
 }
-input:focus{
-    outline: none;
+
+input:focus {
+	outline: none;
 }
-.search-input{
+
+.search-input {
 	width: 300px;
 	height: 100%;
 	margin: 0;
@@ -46,7 +52,7 @@ input:focus{
 	border-radius: 5px;
 }
 
-.button{
+.button {
 	height: 100%;
 	width: 2.5rem;
 	margin-left: -2rem;
@@ -59,16 +65,18 @@ input:focus{
 	border-radius: 0 5px 5px 0;
 
 }
-.result-wrap{
+
+.result-wrap {
 	position: relative;
 	display: flex;
 	width: 100%;
 	justify-content: center;
 
 }
-.result{
+
+.result {
 	max-width: 700px;
-	width:	100%;
+	width: 100%;
 	display: flex;
 	background-color: white;
 	color: black;
@@ -80,7 +88,8 @@ input:focus{
 	z-index: 9999;
 
 }
-.result-item{
+
+.result-item {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -90,18 +99,22 @@ input:focus{
 	border-right: 3px solid black;
 	padding: 1rem;
 }
-.result-item:last-child{
+
+.result-item:last-child {
 	border-right: none;
 	padding-right: 0;
 
 }
-.result-item p{
+
+.result-item p {
 	margin: .5rem;
 }
-.result-item p:last-child{
+
+.result-item p:last-child {
 	font-weight: 800;
 }
-#map{
+
+#map {
 	height: 70vh;
 	width: 100%;
 }
