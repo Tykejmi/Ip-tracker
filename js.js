@@ -18,7 +18,7 @@ let ipApi = {
 		.then(data => this.handleData(data))
 		.catch(err=>{
 			if (err) {
-				alert("invalid IP try again\n (Try disabling AdBlock)")
+				alert("Invalid IP try again\n (Or try disabling AdBlock)")
 				search.value = ""
 			}
 		})	
